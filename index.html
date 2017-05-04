@@ -7,25 +7,73 @@
 <link rel="stylesheet" href="files/css/style.css">
 <script src="files/js/core/jquery.js"></script>
 <script src="files/js/core/jquery.easing.js"></script>
-<script src="files/js/core/jquery.xdomainajax.js"></script>
-<script src="files/js/script.js"></script>
+<script src="files/js/core/jquery.transit.min.js"></script>
+<script src="files/js/script.js?1622"></script>
 </head>
 
 <body>
 
 	<section id="all">
 
-		<section id="loadItem">
-			<h1 class="title"><img src="files/img/logo.png"></h1>
-			<input type="text" placeholder="注文番号を入力">
-			<button type="button">アイテムをゲットする</button>
+		<header id="header">
+			<h1><img src="files/img/logo.png"></<h1>
+		</header>
+
+		<section class="page" id="kakutoku">
+
+			<section id="loadItem">
+				<form>
+					<input type="text" placeholder="注文番号を入力">
+					<button type="submit">アイテムをカクトクする</button>
+				</form>
+			</section>
+
+			<section id="showItem">
+				<p class='hyotan'><img src="files/img/hyotan.png"></p>
+				<p class="item"><img></p>
+				<p class="powerup"><img></p>
+				<p class="description"></p>
+			</section>
+
 		</section>
 
-		<section id="showItem">
-			<p class='image'><img src="files/img/item/1.jpg"></p>
+		<section class="page" id="zukan">
+			<h2 class="title"></h2>
+			<ul></ul>
 		</section>
+
+		<section class="page" id="battle">
+			<h2 class="title"><span>養老乃瀧 池袋南口店</span><em>VS</em><span class="enemy">養老乃瀧 新宿西口店</span></h2>
+			<ul class="first">
+				<li><img src="files/img/item/c1.png"></li>
+				<li><img src="files/img/item/c1.png"></li>
+				<li><img src="files/img/item/c1.png"></li>
+				<li><img src="files/img/item/c1.png"></li>
+				<li><img src="files/img/item/c1.png"></li>
+			</ul>
+			<ul class="last">
+				<li><img src="files/img/item/c1.png"></li>
+				<li><img src="files/img/item/c1.png"></li>
+				<li><img src="files/img/item/c1.png"></li>
+				<li><img src="files/img/item/c1.png"></li>
+			</ul>
+			<navi class="navi"><img src="files/img/battle/hp.png"><p class="gage"></p></navi>
+			<p class="win">勝利 !!</p>
+		</section>
+
+		<footer id="footer">
+			<navi id="globalnavi">
+				<ul>
+					<li class="kakutoku"><span><img src="files/img/icon/kakutoku.png"></span></li>
+					<li class="zukan"><span><img src="files/img/icon/zukan.png"></span></li>
+					<li class="battle"><span><img src="files/img/icon/battle.png"></span></li>
+				</ul>
+			</navi>
+		</footer>
 
 	</section>
+
+	<section id="bg"></section>
 
 </body>
 </html>
