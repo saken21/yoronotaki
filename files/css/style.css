@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+@import "common/base.css";
+
+/*-------------------------------------------------------------------------
+	All
+/*-----------------------------------------------------------------------*/
+html {
+	background: #e9e4d4;
+	color: #000;
+	font-size: 16px;
+}
+
+#all {
+	text-align: center;
+}
+
+	#all button {
+		padding: 10px 20px;
+		border: none;
+		border-radius: 5px;
+		background: #00a3af;
+		color: #fff;
+		font-size: 18px;
+	}
+
+	#all img {
+		width: 100%;
+	}
+
+/*-------------------------------------------------------------------------
+	Load Item
+/*-----------------------------------------------------------------------*/
+#loadItem {
+	padding-top: 80px;
+}
+
+	#loadItem .title {
+		width: 80%;
+		margin: 0 auto 60px auto;
+		color: #e2041b;
+		font-size: 32px;
+	}
+
+	#loadItem input {
+		display: block;
+		width: 200px;
+		height: 24px;
+		margin: 0 auto 30px auto;
+		padding: 10px 20px;
+		border: 1px solid #aaa;
+		background: #f8f4e6;
+		font-size: 18px;
+	}
+
+/*-------------------------------------------------------------------------
+	Show Item
+/*-----------------------------------------------------------------------*/
+#showItem {
+	display: none;
+	padding-top: 50px;
+}
+
+	#showItem .image {
+		position: relative;
+		width: 80%;
+		margin: 0 auto;
+	}
